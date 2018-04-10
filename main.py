@@ -6,10 +6,6 @@ import init
 
 from sqlite3 import OperationalError
 
-api_id=259155; api_hash='35af3efa56d9e0e159d44364aea5777f'
-#phone = '+79313585883'
-#username = '@ZaDaVid_PooCheredinik'
-
 def main():
 	welcom()
 
