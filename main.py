@@ -1,6 +1,6 @@
 from getId import getId
 from writeToExcel import writeToExcel
-from inviteToChannel import inviteToChannel
+#from inviteToChannel import inviteToChannel
 from help import welcom
 import init
 
@@ -33,7 +33,7 @@ def main():
 		else:
 			break
 
-	channelInvite = str(input("Enter name of Telegram channel (eg: @savemdk, but without @ - savemdk) to invite users in it: "))
+	"""channelInvite = str(input("Enter name of Telegram channel (eg: @savemdk, but without @ - savemdk) to invite users in it: "))
 
 	while True:
 		inviting = inviteToChannel(client, channelInvite, id)
@@ -43,7 +43,7 @@ def main():
 		else:
 			break
 
-	fileName = str(input("Enter name of excel file: "))
+	fileName = str(input("Enter name of excel file: "))"""
 	writeToExcel(id, fileName)
 	
 
